@@ -299,6 +299,8 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    position: relative;
+    z-index: 2;
 }
 
 .navbar-brand img {
@@ -781,7 +783,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -881,7 +883,21 @@ h2.dscsec2 {
 }
 
 .coordo {
-    padding-left: 150px;
+    padding-left: 130px;
+}
+
+.h2zi {
+    position: relative;
+    z-index: 2;
+}
+
+.black {
+    color: #000 !important;
+}
+
+#idcoordo {
+    border-left: 2px solid #575757;
+    padding-left: 25px;
 }
 
 @media (max-width: 1024px) {
