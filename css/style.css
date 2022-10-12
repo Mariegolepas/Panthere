@@ -946,6 +946,14 @@ h2.dscsec2 {
     border-bottom: 1px dashed black;
 }
 
+.logo {
+    height: 40px;
+}
+
+.logo2 {
+    width: 100px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
